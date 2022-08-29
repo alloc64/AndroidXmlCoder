@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'commons-io:commons-io:2.6'
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation 'net.coobird:thumbnailator:0.4.11'
+    implementation 'net.lingala.zip4j:zip4j:2.2.3'
+    implementation 'org.apache.commons:commons-collections4:4.4'
+}
